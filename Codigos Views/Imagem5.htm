@@ -1,0 +1,35 @@
+<!--
+//////////////////////////////////////////////////////////////////////////
+// Criacao...........: 01/2006
+// Sistema...........: Site da Aquarius Maritime
+// Analistas.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Desenvolvedores...: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+// Copyright.........: Marilene Esquiavoni & Denny Paulista Azevedo Filho
+//////////////////////////////////////////////////////////////////////////
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Porto de S�o Sebasti�o</title>
+<SCRIPT LANGUAGE="JavaScript">
+  function mbtnDireito(e) {
+    if (navigator.appName == 'Netscape' && (e.which == 3 || e.which == 2))
+      return false;
+    else if (navigator.appName == 'Microsoft Internet Explorer' && (event.button == 2 || event.button == 3)) {
+      alert("Opera��o Desativada!!! \nDireitos Reservados: Aquarius Maritime");
+      return false;
+      }
+    return true;
+    }
+  document.onmousedown=mbtnDireito;
+  if (document.layers) window.captureEvents(Event.MOUSEDOWN);
+    window.onmousedown=mbtnDireito;
+</script>
+
+
+</head>
+<body  style="background-color: #4079b8; position: static; padding-right: 0px; padding-left: 0px; padding-bottom: 0px; margin: 0px; overflow: auto; padding-top: 0px;" >
+  <img src="imgs/Seba6.jpg" />
+</body>
+</html>
